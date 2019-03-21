@@ -11,8 +11,10 @@ srcs-y += strchrnul.c
 srcs-y += strncpy.c
 srcs-y += stpncpy.c
 srcs-y += strstr.c
-#srcs-y += stubs.c
+srcs-y += stubs.c
 srcs-y += fprintf.c
+srcs-y += vfprintf.c
+srcs-y += vsnprintf.c
 srcs-y += sysdeps_tz.c
 
 
